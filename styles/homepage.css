@@ -1,0 +1,199 @@
+/* main formatting */
+
+
+body {
+	background-color: black;
+	background-image: url(../img/Background.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-sizevgbvd
+	margin: 0;
+}
+
+
+p {
+	color:white;
+	font-family: "Spectral", sans-serif;
+}
+
+/* headings */
+
+h1{
+	font-family: "Spectral SC", sans-serif;
+	font-size: 2vw;
+	font-style: normal;
+	font-weight: 700;
+	color: #ff0558;
+}
+
+h2{
+	font-family: "Spectral SC", sans-serif;
+	font-size: 1vw;
+	font-style: normal;
+	font-weight: 600;
+	color: #ff0558;
+}
+
+#loginpos{
+	position: absolute;
+	height: 3%;
+	width: 0;
+	top: 0;
+	left: 0;
+	right: 80%;
+	bottom: 20%;
+	margin: auto;
+	width: 10%;;
+	pading: 10px;
+	text-align: left;
+	font-weight: 400;
+	color: #ff0558;
+	background-color: #171717;
+	font-family: "Spectral SC", sans-serif;
+	border-color: #ff0558;
+}
+
+
+form {
+	border: 0.2vw solid black;
+}
+
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+} 
+
+ul{
+	list-style-type: none;
+	margin-right: 1vw;
+	margin:1vw;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+}
+
+li{
+	float: right;
+
+}
+
+li a{
+	font-family: "Spectral SC", sans-serif;
+	text-align: left;
+	display: block;
+	color: #ff0558;
+	text-align: center;
+	font-size: 1vw;
+	padding: 1vw 1vw;
+	text-decoration: none;
+	border: 0.2vw solid #ff0558;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+#logo {
+	position: absolute;
+ 	width: 6vw;
+ 	height: auto;
+    left: 0px;
+    top: 0px;
+}
+
+#fadedlogo {
+	position:absolute;
+	opacity: 0.5;
+	width: auto;
+ 	height: auto;
+    max-width: 100%;
+    padding: 0;
+    display: flex;
+
+}
+
+.splashtitle {
+	position: absolute;
+	height: 20%;
+	width: 0;
+	top: 0;
+	left: 0;
+	right: 65%;
+	bottom:40%;
+	margin: auto;
+	width: 25%;;
+	pading: 10px;
+	text-align: left;
+	font-weight: 900;
+}
+
+.splashinfo {
+	position: absolute;
+	height: 6%;
+	width: 0;
+	top: 0;
+	left: 0;
+	right: 65%;
+	bottom:40%;
+	margin: auto;
+	width: 25%;;
+	pading: 10px;
+	text-align: left;
+	font-weight: 200;
+}
+
+
